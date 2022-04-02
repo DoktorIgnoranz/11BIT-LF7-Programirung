@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.lang.Math;
-
 public class Waerungsrechner {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -39,9 +38,6 @@ public class Waerungsrechner {
         	System.out.println("An unexspeceted Error occoured!");
         	break;
         }
-        
         System.out.println(old_value + " "+ old_currency + " is currently " + Math.round(new_value*100.0)/100.0 + " " + new_currency);
-        
-        
 	}
 }
